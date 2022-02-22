@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url('../images/1.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 150px;
+    color: white;
+    top: 0px;
+    position: relative;
+}
+header>h1{
+  position: absolute;
+    left: 17%;
+    margin-top: 15px;
+    font-size: 50px;
+    line-height: 50px;   
+}
+header>p{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 17%;
+    font-size: 25px;
+}
+header>p>img{
+    width: 25px;
+    height: 25px;
+}
+footer{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    background-color: rgb(37, 33, 48);
+    margin-top: 50px;
+  }
+  footer>img{
+    width: 4%;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  footer>p{
+    color: white;
+    font-size: 17px;
+  }
+article{
+    width: 900px;
+    margin: 60px auto;
+    text-align: center;
+} 
+.box{
+    width: 600px;
+    margin: 0 auto;
+    height: 320px;
+    position: relative;
+}
+.box>h1{
+    font-size: 40px;
+    color: rgb(83, 83, 83);
+}
+.box>p{
+  bottom: 0px;
+  position: absolute;
+  font-size: 21px;
+  color: rgb(82, 80, 80);
+}
+.box>h2{
+  width: 70%;
+  margin: 0 auto;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+  color: rgb(83, 82, 82);
+}
+.top-left{
+  position: absolute;
+  top:50px;
+  left: 0px;
+}
+.bottom-right{
+  position: absolute;
+  bottom: 110px;
+  right: 0px;
+}
+.box-2{
+  margin: 100px auto;
+}
+.box-2>img{
+  width: 90%;
+}
+.box-2>h1{
+  font-size: 40px;
+  color: rgb(71, 71, 71);
+}
+.box-2>p{
+  font-size: 20px;
+  color: rgb(65, 64, 64);
+  margin: 30px auto;
+}
